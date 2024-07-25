@@ -30,6 +30,7 @@ global:
       localSecretName:
   # -- (bool) Deploys postgres/elasticsearch for dev
   dev: true
+  esdev: true
   postgres:
     # -- (bool) Whether the database create job should run.
     dbCreate: true
